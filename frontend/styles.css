@@ -1,0 +1,127 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: #dffaff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main wrapper */
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Card container */
+.card {
+    background: #ffffff;
+    padding: 32px 36px;
+    border-radius: 14px;
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+.card h1 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+    color: #0f172a;
+}
+
+/* Visitor counter */
+.counter-number {
+    display: inline-block;
+    margin-bottom: 24px;
+    padding: 8px 18px;
+    border-radius: 999px;
+    background: #e0f2fe;
+    color: #0369a1;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* Form layout */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    text-align: left;
+}
+
+/* Label */
+label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #1e293b;
+}
+
+/* Input */
+input {
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 2px solid #e2e8f0;
+    font-size: 1rem;
+    outline: none;
+}
+
+input:focus {
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25);
+}
+
+/* Button */
+button {
+    margin-top: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #38bdf8, #2563eb);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.95;
+}
+
+/* Greeting box */
+.greeting-container {
+    margin-top: 20px;
+    padding: 14px;
+    background: #f0f9ff;
+    border-left: 4px solid #38bdf8;
+    border-radius: 8px;
+    display: none;
+    text-align: center;
+}
+
+.greeting-container.active {
+    display: block;
+}
+
+#greetingMessage {
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #0f172a;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .card {
+        padding: 24px;
+    }
+}
