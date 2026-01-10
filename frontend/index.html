@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Greeting App</title>
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+    <div class="card">
+        <h1>Greeting App</h1>
+        <div id="visitorCounter" class="counter-number">
+            👀 Total Visitors: Loading...
+        </div>
+        <form id="greetingForm">
+            <label for="nameInput">Name:</label>
+            <input
+                type="text"
+                id="nameInput"
+                placeholder="Enter your name"
+            />
+            <button id="submitBtn" type="submit">
+                Submit
+            </button>
+        </form>
+       <div id="greetingContainer" class="greeting-container">
+            <p id="greetingMessage"></p>
+        </div>
+
+    </div>
+</main>
+ <script src="script.js"></script>
+</body>
+</html>
+
+
