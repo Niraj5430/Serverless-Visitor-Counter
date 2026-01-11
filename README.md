@@ -14,7 +14,7 @@ Counter increment logic implemented using AWS Lambda
 Frontend updates deployed using AWS CLI for hands-on learning
 
 📂 Repository Structure
-serverless-visitor-counter/
+serverless-visitor-counter/ 
 │
 ├── frontend/
 │   ├── index.html
