@@ -25,7 +25,7 @@ The application is built using **AWS managed services** for hosting, content del
 ## 📂 Repository Structure
 
 
-<img width="1024" height="1536" alt="file struct" src="https://github.com/user-attachments/assets/9f6cb87b-b1b5-46d9-8069-d5ee0b295de6" />
+<img width="514" height="717" alt="file struct" src="https://github.com/user-attachments/assets/9f6cb87b-b1b5-46d9-8069-d5ee0b295de6" />
 
 ---
 
