@@ -1,4 +1,4 @@
-**architecture diagram**
+**architecture.png**
 
 <img width="1472" height="704" alt="architecture png" src="https://github.com/user-attachments/assets/06dbb501-2759-4dce-bf35-c6e45a9acb3c" />
 
