@@ -136,4 +136,22 @@ The application is built using **AWS managed services** for hosting, content del
 - AWS EC2
 
 ---
+## Why This Serverless (Lambda-Based) Hosting Is Different
 
+Traditional web hosting relies on **always-running servers**, whereas this project uses a **serverless, event-driven architecture**.
+
+### Traditional Hosting (Server-Based)
+- Requires a server (VM) that runs **24/7**
+- Backend code is always running, even when there are no users
+- You are responsible for:
+  - Server provisioning
+  - OS updates and security patches
+  - Scaling and load handling
+- You pay for uptime, not actual usage
+
+### Serverless Hosting (This Project)
+- No backend server is running continuously
+- Backend logic is executed using **AWS Lambda**, which runs **only when triggered**
+- The function is invoked only when a user visits the website
+- Scaling is handled automatically by AWS
+- You pay **only per request**, not for idle time
