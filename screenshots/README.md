@@ -1,3 +1,7 @@
+**architecture diagram**
+
+<img width="1472" height="704" alt="architecture png" src="https://github.com/user-attachments/assets/06dbb501-2759-4dce-bf35-c6e45a9acb3c" />
+
 **step-1-s3-bucket.png**
 Create S3 Bucket & Upload Static Files
 <img width="1920" height="1080" alt="step-1-s3-bucket png" src="https://github.com/user-attachments/assets/e60a551f-8e5c-4aa3-be8e-23404e4463e0" />
