@@ -132,7 +132,8 @@ The application is built using **AWS managed services** for hosting, content del
 - AWS Lambda  
 - Amazon DynamoDB  
 - AWS IAM  
-- AWS CLI  
+- AWS CLI
+- AWS EC2
 
 ---
 
